@@ -1,282 +1,284 @@
 html, body{
-     margin: 0;
-     padding: 0;  
+   margin: 0;
+   padding: 0;  
+   font-size: 18px;
+   background: red;
 }
 body{
-     font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 a{
-     border-bottom: 4px solid #111;
-     color: #fff;   
+   border-bottom: 4px solid #111;
+   color: #fff;   
 }
 a:hover{
-     color: #fff; 
-     text-decoration: none;  
+   color: #fff; 
+   text-decoration: none;  
 }
 h2{
-     font-size: 44px;
-     font-weight: 600;
-     line-height: 37px;
-     text-align: center;
+   font-size: 44px;
+   font-weight: 600;
+   line-height: 37px;
+   text-align: center;
 }
 hr{
-     background-color: #fcac45;
-     border: none;
-     height: 4px;
-     margin-top: 30px;
-     width: 98px;
+   background-color: #fcac45;
+   border: none;
+   height: 4px;
+   margin-top: 30px;
+   width: 98px;
 }
 .paragraph{
-     color: #6c6c6c;
-     font-size: 16px;
-     font-style: italic;
-     font-weight: 400;
-     line-height: 24px;
-     margin: 52px 0 102px 0;
+   color: #6c6c6c;
+   font-size: 16px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 24px;
+   margin: 52px 0 102px 0;
 }
 .fas.fa-bars{
-     color: #fff;
+   color: #fff;
 }
 .navbar{
-     color: #fff;
-     background: #000;
-     font-size: 14px;
-     font-weight: 700;
-     line-height: 24px;
-     padding: 53px 110px 30px 180px;
+   color: #fff;
+   background: #000;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 24px;
+   padding: 53px 110px 30px 180px;
 }
 .navbar-brand{
-     font-size: 24px;
-     font-weight: 800;
-     text-decoration: none;
+   font-size: 24px;
+   font-weight: 800;
+   text-decoration: none;
 }
 .items{
-     padding-bottom: 12px;
-     margin: 0 18px;
+   padding-bottom: 12px;
+   margin: 0 18px;
 }
 .items.active{
-     border-bottom: 4px solid #fcac45;
+   border-bottom: 4px solid #fcac45;
 }
 .welcome{
-     color: #8E8E8E;
-     background: #000;
-     height: 581px;
-     line-height: 37px;
-     padding-top: 161px;
-     text-align: center;
+   color: #8E8E8E;
+   background: #000;
+   height: 581px;
+   line-height: 37px;
+   padding-top: 161px;
+   text-align: center;
 }
 .large_font{
-     font-size: 44px;
-     font-weight: 300;
-     letter-spacing: -2px;
+   font-size: 44px;
+   font-weight: 300;
+   letter-spacing: -2px;
 }
 .orange{
-     color: #fcac45;
-     font-weight: 800;
+   color: #fcac45;
+   font-weight: 800;
 }
 .welcome p{
-     color: #999999;
-     font-size: 20px;
-     font-weight: 400;
-     letter-spacing: -1px;
+   color: #999999;
+   font-size: 20px;
+   font-weight: 400;
+   letter-spacing: -1px;
 }
 .welcome p span{
-     color: #C3C3C3;
-     font-size: 20px;
-     font-weight: 700;
-     letter-spacing: -1px;
+   color: #C3C3C3;
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: -1px;
 }
 .about{
-     padding: 100px 0px;
+   padding: 100px 0px;
 }
 .left_side {
-     text-align: center;
+   text-align: center;
 }
 .right_side h2{
-     color: #222222;
-     border-bottom: 4px solid #fcac45;
-     display: inline-block;
-     font-size: 34px;
-     font-weight: 400;
-     letter-spacing: -1px;
-     line-height: 37px;
-     padding: 30px 0 20px 0;
-     text-align: left;
+   color: #222222;
+   border-bottom: 4px solid #fcac45;
+   display: inline-block;
+   font-size: 34px;
+   font-weight: 400;
+   letter-spacing: -1px;
+   line-height: 37px;
+   padding: 30px 0 20px 0;
+   text-align: left;
 }
 .right_side h2 span{
-     font-weight: 700;
+   font-weight: 700;
 }
 .right_side p{
-     color: #6c6c6c;
-     font-size: 18px;
-     font-weight: 400;
-     letter-spacing: -1px;
-     line-height: 25px;
-     margin: 20px 0 40px 0;
-     width: 80%;  
+   color: #6c6c6c;
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: -1px;
+   line-height: 25px;
+   margin: 20px 0 40px 0;
+   width: 80%;  
 }
 .right_side ul{
-     list-style-image: url(img/mark.png);
-     padding-left: 20px;
+   list-style-image: url(img/mark.png);
+   padding-left: 20px;
 }
 .right_side li{
-     color: #5a5a5a;
-     font-size: 18px;
-     font-weight: 600;
-     letter-spacing: 0px;
-     line-height: 25px;
-     text-align: left;
+   color: #5a5a5a;
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 0px;
+   line-height: 25px;
+   text-align: left;
 }
 .right_side li span{
-     font-size: 16px;
-     font-style: italic;
-     font-weight: 400;
+   font-size: 16px;
+   font-style: italic;
+   font-weight: 400;
 }
 .team{
-     background: #070707;
-     color: #fff;
-     padding-bottom: 145px;
-     padding-top: 100px;
+   background: #070707;
+   color: #fff;
+   padding-bottom: 145px;
+   padding-top: 100px;
 }
 .team_card{
-     background: #000;
-     color: #fff; 
-     display: inline-block;
-     padding-top: 100px;
-     text-align: center;
+   background: #000;
+   color: #fff; 
+   display: inline-block;
+   padding-top: 100px;
+   text-align: center;
 }
 .name{
-     font-size: 20px;
-     font-weight: 700;
-     line-height: 24px;
-     margin-top: 22px;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   margin-top: 22px;
 }
 .position{
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 24px; 
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px; 
 }
 .information{
-     font-size: 14px;
-     font-weight: 400; 
-     line-height: 24px;
-     margin-top: 36px;
+   font-size: 14px;
+   font-weight: 400; 
+   line-height: 24px;
+   margin-top: 36px;
 }
 .our_service {
-     color: #222222;
-     padding: 100px 0;
-     text-align: center;
+   color: #222222;
+   padding: 100px 0;
+   text-align: center;
 }
 .service{
-     background: url(img/Forma.png) top center no-repeat;
-     padding-top: 35px;
+   background: url(img/Forma.png) top center no-repeat;
+   padding-top: 35px;
 }
 .circle{
-     padding-bottom: 7px;
+   padding-bottom: 7px;
 }
 .service h4{
-     font-size: 25px;
-     font-weight: 600;
-     line-height: 24px;
-     margin-top: 50px; 
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 24px;
+   margin-top: 50px; 
 }
 .service p{
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 21px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
 }
 .clients{
-     background: #0B0B0B;
-     color: #fff;
-     padding: 100px 0px 192px 0px;
+   background: #0B0B0B;
+   color: #fff;
+   padding: 100px 0px 192px 0px;
 }
 .clients span, .work span, .testimonials span{
-     font-weight: 300;
+   font-weight: 300;
 }
 .brand{
-     padding-top: 110px;
+   padding-top: 110px;
 }
 .brand img{
-     padding: 15px;
+   padding: 15px;
 }
 .work{
-     padding: 100px 0 85px 0;
-     color: #222222;
-     text-align: center; 
+   padding: 100px 0 85px 0;
+   color: #222222;
+   text-align: center; 
 }
 .img-fluid{
-     padding-bottom: 30px;
+   padding-bottom: 30px;
 }
 .testimonials{
-     background: #0B0B0B;
-     color: #fff;
-     font-size: 18px;
-     line-height: 24px;
-     padding-bottom: 170px;
-     padding-top: 95px;
-     text-align: center;
-     
+   background: #0B0B0B;
+   color: #fff;
+   font-size: 18px;
+   line-height: 24px;
+   padding-bottom: 170px;
+   padding-top: 95px;
+   text-align: center;
+   
 }
 .test{
-     color: #e7e7e7;
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 600;
-     line-height: 24px;
-     margin: 115px 0 50px 0;
+   color: #e7e7e7;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 24px;
+   margin: 115px 0 50px 0;
 }
 .sign{
-     color: #b2b2b2;
-     font-style: normal;
-     font-weight: 600;
+   color: #b2b2b2;
+   font-style: normal;
+   font-weight: 600;
 }
 .sign span{
-     font-weight: 300;   
+   font-weight: 300;   
 }
 .contact{
-     color: #222222;
-     margin-bottom: 170px;
-     padding-top: 95px;
-     text-align: center;   
+   color: #222222;
+   margin-bottom: 170px;
+   padding-top: 95px;
+   text-align: center;   
 }
 form{
-     text-align: left;
+   text-align: left;
 }
 .form-control{
-     border-radius: 0;
+   border-radius: 0;
 }
 label{
-     color: #636363;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 24px;
+   color: #636363;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
 }
 .star{
-     color: #DB332E;   
+   color: #DB332E;   
 }
 .btn{
-     background-color: #fcac45;
-     border-radius: 0%;
-     color: #ffffff;
-     font-size: 16px;
-     font-weight: 600;
-     height: 40px;
-     line-height: 24px;
-     margin-top: 15px;
-     width: 165px;  
+   background-color: #fcac45;
+   border-radius: 0%;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 600;
+   height: 40px;
+   line-height: 24px;
+   margin-top: 15px;
+   width: 165px;  
 }
 footer{
-     background-color: #222222;
-     color: #fff;
-     line-height: 90px;
-     text-align: center;
+   background-color: #222222;
+   color: #fff;
+   line-height: 90px;
+   text-align: center;
 }
 footer a{
-     padding: 0 6px;
+   padding: 0 6px;
 }
 
 @media (max-width: 992px) {
-     .navbar{
-          padding: 58px 20px 30px 30px;
-     }  
+   .navbar{
+         padding: 58px 20px 30px 30px;
+   }  
 }
