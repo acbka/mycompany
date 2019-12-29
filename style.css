@@ -1,8 +1,9 @@
 html, body{
    margin: 0;
-   padding: 0;  
+   padding: 0; 
+}
+html{    
    font-size: 18px;
-   background: red;
 }
 body{
    font-family: 'Open Sans', sans-serif;
@@ -52,9 +53,15 @@ hr{
    font-weight: 800;
    text-decoration: none;
 }
+.navbar-brand:hover{
+   color: #fcac45;
+}
 .items{
    padding-bottom: 12px;
    margin: 0 18px;
+}
+.items:hover{
+   color: #fcac45;
 }
 .items.active{
    border-bottom: 4px solid #fcac45;
@@ -91,8 +98,12 @@ hr{
 .about{
    padding: 100px 0px;
 }
-.left_side {
-   text-align: center;
+.left_side{
+   text-align: right;
+   padding-right: 30px;
+}
+.right_side{
+   padding-left: 150px;
 }
 .right_side h2{
    color: #222222;
@@ -102,7 +113,7 @@ hr{
    font-weight: 400;
    letter-spacing: -1px;
    line-height: 37px;
-   padding: 30px 0 20px 0;
+   padding: 20px 0;
    text-align: left;
 }
 .right_side h2 span{
@@ -146,6 +157,9 @@ hr{
    display: inline-block;
    padding-top: 100px;
    text-align: center;
+}
+.photo img{
+   border-radius: 50%;
 }
 .name{
    font-size: 20px;
@@ -206,9 +220,45 @@ hr{
    color: #222222;
    text-align: center; 
 }
+.work-img{
+   position: relative;
+}
+.img-layer{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(255, 255, 255, 0.6);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   visibility: hidden;
+   opacity: 1;
+}
+ .text{
+   color: #fcac45;
+   font-size: 1.5rem;
+   font-weight: 800;
+   padding: 0 15px;
+   transform: translateY(1em);
+
+   transition: all .3s ease-in-out;
+}
+.work-img:hover .img-layer{
+   visibility: visible;
+}
+.work-img:hover .text{
+   transform: translateY(0)
+}
 .img-fluid{
    padding-bottom: 30px;
 }
+.work-img:hover{
+   transform: scale(1.1, 1.1);
+   transition: all .3s ease-in-out;
+}
+
 .testimonials{
    background: #0B0B0B;
    color: #fff;
@@ -216,8 +266,7 @@ hr{
    line-height: 24px;
    padding-bottom: 170px;
    padding-top: 95px;
-   text-align: center;
-   
+   text-align: center; 
 }
 .test{
    color: #e7e7e7;
@@ -259,6 +308,7 @@ label{
 .btn{
    background-color: #fcac45;
    border-radius: 0%;
+   border: 3px solid #fcac45;
    color: #ffffff;
    font-size: 16px;
    font-weight: 600;
@@ -267,18 +317,38 @@ label{
    margin-top: 15px;
    width: 165px;  
 }
+.btn:active,
+.btn:hover
+{
+   background-color: #fff;
+   color: #fcac45;
+}
+
 footer{
    background-color: #222222;
    color: #fff;
    line-height: 90px;
    text-align: center;
 }
-footer a{
+.social{
    padding: 0 6px;
 }
+.social img:hover{
+   color: red;
+   transform: scale(1.2, 1.2)
+}
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
    .navbar{
-         padding: 58px 20px 30px 30px;
+      padding: 58px 20px 30px 30px;
    }  
+   .left_side, .right_side{
+      padding: 0 20px;
+   }
+   .right_side h2{
+      text-align: center;
+   }
+   .right_side p{
+      width: 100%;
+   }
 }

@@ -20,11 +20,11 @@
       <div class="collapse navbar-collapse" id="navbarContent">
          <div class="navbar-nav ml-auto text-uppercase"> 
             <a class="items active" href="#">Home</a>
-            <a class="items" href="#">about</a>
-            <a class="items" href="#">service</a>               
-            <a class="items" href="#">portfolio</a>               
-            <a class="items" href="#">testimonials</a>              
-            <a class="items" href="#">contact</a>                   
+            <a class="items" href="#about">about</a>
+            <a class="items" href="#service">service</a>               
+            <a class="items" href="#portfolio">portfolio</a>               
+            <a class="items" href="#testimonials">testimonials</a>              
+            <a class="items" href="#contact">contact</a>                   
          </div>
       </div> 
    </nav>
@@ -32,51 +32,50 @@
       <h1 class="text-uppercase large_font">wELCOME on <span class="orange">mycompany</span></h1>
       <p>We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></p>
    </div>
-   <div class="about"> 
-      <div class="row justify-content-between">
-         <div class="col-lg-6 left_side">
-            <div class="container">
-               <img class="img-fluid" src="img/mac.png" alt="mac">
+   <div class="about" id="about"> 
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-6 left_side">    
+               <img class="img-fluid" src="img/mac.png" alt="mac">               
             </div>
-         </div>
-         <div class="col-lg-6 float-md-right right_side">
-            <div class="container">
-               <h2 class="text-uppercase">Some words <span>about us</span></h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
-               <ul>
-                  <li>Mission - <span>We deliver uniqueness and quality</span></li>
-                  <li>Skills - <span>Delivering fast and excellent results</span></li>
-                  <li>Clients - <span>Satisfied clients thanks to our experience</span></li>
-               </ul>
+            <div class="col-lg-6 right_side">               
+                  <h2 class="text-uppercase">Some words <span>about us</span></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
+                  <ul>
+                     <li>Mission - <span>We deliver uniqueness and quality</span></li>
+                     <li>Skills - <span>Delivering fast and excellent results</span></li>
+                     <li>Clients - <span>Satisfied clients thanks to our experience</span></li>
+                  </ul>              
             </div>
          </div>
       </div>
+
    </div>
-   <div class="team">
+   <div class="team" id="team">
       <div class="container">
          <h2 class="text-uppercase">our team</h2>
          <hr>
          <div class="row justify-content-center">
             <div class="col-xl-3 team_card">
-               <div class="photo"><img src="img/Ellipse6.png" alt="photo"></div>
+               <div class="photo"><img src="./img/fedor.png" alt="photo"></div>
                <div class="name">Vlad Ivanov</div>
                <div class="position">Designer</div>
                <div class="information">Do not seek to change what has come before. Seek to create that which has not.</div>
             </div>
             <div class="col-xl-3 team_card">
-               <div class="photo"><img src="img/Ellipse6.png" alt="photo"></div>
+               <div class="photo"><img src="./img/matroskin.png" alt="photo"></div>
                <div class="name">Bogdan Makarov</div>
                <div class="position">Manager</div>
                <div class="information">Do not seek to change what has come before. Seek to create that which has not.</div>
             </div>
             <div class="col-xl-3 team_card">
-               <div class="photo"><img src="img/Ellipse6.png" alt="photo"></div>
+               <div class="photo"><img src="./img/sharik.png" alt="photo"></div>
                <div class="name">Pavel Konov</div>
                <div class="position">Copywriter</div>
                <div class="information">Do not seek to change what has come before. Seek to create that which has not.</div>
             </div>
             <div class="col-xl-3 team_card">
-               <div class="photo"><img src="img/Ellipse6.png" alt="photo"></div>
+               <div class="photo"><img src="./img/pechkin.png" alt="photo"></div>
                <div class="name">Max Belov</div>
                <div class="position">SEO</div>
                <div class="information">Do not seek to change what has come before. Seek to create that which has not.</div>
@@ -84,7 +83,7 @@
          </div>
       </div> 
    </div>
-   <div class="our_service">
+   <div class="our_service" id="service">
       <div class="container">
          <h2 class="text-uppercase">our services</h2>
          <hr>
@@ -114,62 +113,100 @@
       </div>
    </div>
    <div class="clients">
-      <h2 class="text-uppercase"><span  class="main_text">SOME OF</span>  OUR CLIENTS</h2>
-      <hr>
-      <div class="row brand justify-content-center">
-         <img src="img/Layer69.png" alt="chanel">
-         <img src="img/Layer65.png" alt="zara">
-         <img src="img/Layer68.png" alt="guerlain">
-         <img src="img/Layer67.png" alt="lancome">
-         <img src="img/Layer64.png" alt="lacoste">
+      <div class="container brand">
+         <h2 class="text-uppercase"><span  class="main_text">SOME OF</span>  OUR CLIENTS</h2>
+         <hr>        
+            <div class="row justify-content-center">
+               <img src="img/Layer69.png" alt="chanel">
+               <img src="img/Layer65.png" alt="zara">
+               <img src="img/Layer68.png" alt="guerlain">
+               <img src="img/Layer67.png" alt="lancome">
+               <img src="img/Layer64.png" alt="lacoste">
+            </div>
       </div>
    </div>
-   <div class="work">
+   <div class="work" id="portfolio">
       <div class="container">
          <h2 class="text-uppercase"><span class="main_text">take a look at</span>  our work</h2>
          <hr>
          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>   
          <div class="row">
-            <div class="col-lg-3 col-md-4">
+            <div class="col-lg-3 col-md-4 work-img">
                <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 1</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                  
-            </div>
-            <div class="col-lg-3 col-md-4">
+            <div class="col-lg-3 col-md-4 work-img">
                <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 2</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 3</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 4</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 5</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 6</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 7</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 8</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                   
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 9</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 10</span>
+               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-               <img class="img-fluid" src="img/Layer83.png" alt="...">                    
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 11</span>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-4 work-img">
+               <img class="img-fluid" src="img/Layer83.png" alt="...">
+               <div class="img-layer">
+                  <span class="text">Work 12</span>
+               </div>
             </div>
          </div>
       </div>
    </div>
-   <div class="testimonials">
+   <div class="testimonials" id="testimonials">
       <div class="container">
          <h2 class="text-uppercase">our clients’ <span class="main_text">testimonials</span></h2>
          <hr>
@@ -177,7 +214,7 @@
          <p class="sign">Dean Martin, <span> CEO Acme Inc.</span></p>
       </div>
    </div>
-   <div class="contact">
+   <div class="contact" id="contact">
       <div class="container">
          <h2 class="text-uppercase">contact us</h2>
          <hr>
@@ -205,11 +242,11 @@
    </div>
    <footer class="">
       <div class="container">
-         <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-         <a href="#"><img src="img/twitter.png" alt="twitter"></a>
-         <a href="#"><img src="img/google.png" alt="google"></a>
-         <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-         <a href="#"><img src="img/dribbble.png" alt="dribbble"></a>
+         <a class="social" href="https://www.facebook.com/" target="blank"><img src="img/facebook.png" alt="facebook"></a>
+         <a class="social" href="https://twitter.com/" target="blank"><img src="img/twitter.png" alt="twitter"></a class="social">
+         <a class="social" href="https://www.google.com/" target="blank"><img src="img/google.png" alt="google"></a class="social">
+         <a class="social" href="https://www.linkedin.com/" target="blank"><img src="img/linkedin.png" alt="linkedin"></a class="social">
+         <a class="social" href="https://dribbble.com/" target="blank"><img src="img/dribbble.png" alt="dribbble"></a class="social">
       </div>
    </footer>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
