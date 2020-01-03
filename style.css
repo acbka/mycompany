@@ -77,7 +77,7 @@ hr{
    left: 0;
    background: #fcac45;
 }
-.items.active{
+.active{
    border-bottom: 4px solid #fcac45;
 }
 .welcome{
@@ -366,10 +366,10 @@ label{
    right: 0;
    margin: auto;
 }
-.scroll_top.active{
+.scroll_top.show{
    bottom: 30px;
 }
-.scroll_top:active, .scroll_top:focus
+.scroll_top:show, .scroll_top:focus
 {
    outline: none; 
 }

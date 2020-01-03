@@ -50,9 +50,9 @@ function trackScroll() {
    let y = document.documentElement.clientHeight;
 
    if (scrolled > y) {
-      scrollButton.classList.add("active");
+      scrollButton.classList.add("show");
    } else {
-      scrollButton.classList.remove("active");
+      scrollButton.classList.remove("show");
    }
 }
 
@@ -62,7 +62,7 @@ function goUp() {
      setTimeout(goUp, 0);
    };
    document.querySelector(".active").classList.remove("active");
-   document.querySelector('[href="#home"]').classList.add("active")
+   document.querySelector('a[href="#home"]').classList.add("active");
 }
 
 
