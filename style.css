@@ -85,7 +85,7 @@ hr{
    background: #000;
    height: 581px;
    line-height: 37px;
-   padding-top: 161px;
+   padding: 161px 10px 0 10px;
    text-align: center;
 }
 .large_font{
