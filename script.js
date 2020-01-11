@@ -11,8 +11,8 @@ function activeItem(){
 
 function scrollMenu(){
    const anchors = document.querySelectorAll('a[href*="#"]:not([href="#"]');
-   animationTime = 300;
-   framesCount = 20;
+   let animationTime = 300;
+   let framesCount = 20;
    anchors.forEach(item => {
    item.addEventListener('click', function(e) {
    e.preventDefault();
