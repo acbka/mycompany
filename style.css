@@ -69,8 +69,8 @@ hr{
    position: absolute;
    bottom: -3px;
    left: 0;
-   background: #fff;
-   transition: all 0.3s;
+   background: #000;
+   transition: width 0.3s;
 }
 .items:hover:before{
    width: 100%;
