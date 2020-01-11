@@ -369,8 +369,7 @@ label{
 .scroll_top.show{
    bottom: 30px;
 }
-.scroll_top:show, .scroll_top:focus
-{
+.scroll_top:show, .scroll_top:focus, .scroll_top:active{
    outline: none; 
 }
 
