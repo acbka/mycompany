@@ -66,7 +66,15 @@ function goUp() {
    document.querySelector('a[href="#home"]').classList.add("active");
 }
 
+function formSubmit(){
+   document.querySelector("#form-submit").addEventListener("click", function(){
+      event.preventDefault();
+      document.querySelector("form").reset();
+   })
+}
 
+
+formSubmit()
 menuActiveItem()
 scrollMenu()
 goToTop()
