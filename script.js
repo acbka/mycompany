@@ -7,6 +7,7 @@ function activeItem(){
    let menuItem = event.target;
    document.querySelector(".active").classList.remove("active");
    menuItem.classList.add("active");
+   document.querySelector(".navbar-collapse").classList.remove("show");
 }
 
 function scrollMenu(){
