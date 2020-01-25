@@ -11,8 +11,8 @@ function activeItem() {
 }
 
 function scrollMenu() {
-   const anchors = document.querySelectorAll('a[href*="#"]:not([href="#"]');
-  //const anchors = document.querySelectorAll('.items');
+   //const anchors = document.querySelectorAll('a[href*="#"]:not([href="#"]');
+   const anchors = document.querySelectorAll('.items');
    let animationTime = 300;
    let framesCount = 20;
    anchors.forEach(item => {
