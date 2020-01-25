@@ -65,7 +65,7 @@ function goUp() {
    function moveUp(){ 
       
       if (x > 0) {
-         window.scrollBy(0, -80); x = x - 80; console.log(x);
+         window.scroll(0, x - 80); x = x - 80; console.log(x);
          setTimeout(moveUp, 0);
       };
    }
