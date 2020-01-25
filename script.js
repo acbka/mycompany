@@ -1,5 +1,5 @@
 function menuActiveItem() {
-   const menuItems = document.querySelectorAll(".items");
+   const menuItems = document.querySelectorAll(".items"); 
    menuItems.forEach(item => item.addEventListener("click", activeItem));
 }
 
@@ -42,11 +42,11 @@ function scrollMenu() {
 let scrollButton = document.querySelector(".scroll_top");
 
 function goToTop() {
-   window.addEventListener("scroll", trackScroll);
+   window.addEventListener("scroll", showScroll);
    scrollButton.addEventListener("click", goUp);
 }
 
-function trackScroll() {
+function showScroll() {
    let scrolled = window.scrollY + 200;
    let y = document.documentElement.clientHeight;
 
@@ -58,12 +58,18 @@ function trackScroll() {
 }
 
 function goUp() {
-   if (window.pageYOffset > 0) {
-      window.scrollBy(0, -80);
-      setTimeout(goUp, 0);
-   };
-   document.querySelector(".active").classList.remove("active");
-   document.querySelector('a[href="#home"]').classList.add("active");
+
+   moveUp();
+   
+   function moveUp(){
+      if (window.pageYOffset > 0) {
+         window.scrollBy(0, -80);
+         setTimeout(moveUp, 0);
+      };
+   }
+  
+   document.querySelector(".active").classList.remove("active"); 
+   document.querySelector('a[href="#home"]').classList.add("active"); 
 }
 
 function formSubmit() {
