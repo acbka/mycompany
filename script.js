@@ -59,12 +59,13 @@ function showScroll() {
 }
 
 function goUp() {
-
+   var x = window.pageYOffset;
    moveUp();
 
-   function moveUp(){ console.log(window.pageYOffset)
-      if (window.pageYOffset > 0) {
-         window.scrollBy(0, -80);
+   function moveUp(){ 
+      
+      if (x > 0) {
+         window.scrollBy(0, -80); x = x - 80; console.log(x);
          setTimeout(moveUp, 0);
       };
    }
