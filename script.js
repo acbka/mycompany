@@ -62,7 +62,7 @@ function goUp() {
 
    moveUp();
 
-   function moveUp(){
+   function moveUp(){ console.log(window.pageYOffset)
       if (window.pageYOffset > 0) {
          window.scrollBy(0, -80);
          setTimeout(moveUp, 0);
