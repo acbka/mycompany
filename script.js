@@ -12,6 +12,7 @@ function activeItem() {
 
 function scrollMenu() {
    const anchors = document.querySelectorAll('a[href*="#"]:not([href="#"]');
+  //const anchors = document.querySelectorAll('.items');
    let animationTime = 300;
    let framesCount = 20;
    anchors.forEach(item => {
@@ -60,7 +61,7 @@ function showScroll() {
 function goUp() {
 
    moveUp();
-   
+
    function moveUp(){
       if (window.pageYOffset > 0) {
          window.scrollBy(0, -80);
